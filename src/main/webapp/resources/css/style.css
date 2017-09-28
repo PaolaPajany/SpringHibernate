@@ -1,0 +1,54 @@
+body {
+    position: center !important;
+    background: url('beer.jpg');
+    background-size: cover;
+}
+.welcome{
+    background-image: url("../../resources/css/form.jpg");
+}
+.title {
+    color : #000000;
+    text-align : center;
+    font-family: "Palatino Linotype";
+}
+.link{
+    text-align: center !important;
+}
+.form {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    color:black;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    height: 450px;
+    width: 550px;
+}
+.tab{
+    object-position: right;
+    color: black;
+}
+#outPopUp {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+.black{
+    color: black;
+}
+.info{
+    background-image: url("../../resources/css/info.jpg");
+}
+#center{
+    position: absolute;
+    right:50%;
+    left:50%;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
